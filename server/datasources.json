@@ -5,13 +5,17 @@
   },
   "mongodb": {
     "host": "cluster0.5imn6.mongodb.net",
-    "port": 80,
-    "url": "mongodb+srv://newuser:G2XNeqUEt4zmamML@cluster0.5imn6.mongodb.net/merng?retryWrites=true&w=majority",
+    "port": 443,
+    "url": "mongodb+srv://newuser:G2XNeqUEt4zmamML@cluster0.5imn6.mongodb.net/notesapi?retryWrites=true&w=majority&useUnifiedTopology=true",
     "database": "notesapi",
     "password": "G2XNeqUEt4zmamML",
     "name": "mongodb",
     "user": "newuser",
     "useNewUrlParser": true,
-    "connector": "mongodb"
+    "useUnifiedTopology": true,
+    "connector": "mongodb",
+    "writeConcern": {
+      "w": "majority"
+    }
   }
 }

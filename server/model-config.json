@@ -38,5 +38,9 @@
   "appuser": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "superuser": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }

@@ -6,6 +6,7 @@
     "node": ">=6"
   },
   "scripts": {
+    "dev": "nodemon server/server.js --watch server",
     "lint": "eslint .",
     "start": "node .",
     "posttest": "npm run lint"
@@ -23,7 +24,8 @@
   },
   "devDependencies": {
     "eslint": "^3.17.1",
-    "eslint-config-loopback": "^8.0.0"
+    "eslint-config-loopback": "^8.0.0",
+    "nodemon": "^2.0.15"
   },
   "repository": {
     "type": "",
