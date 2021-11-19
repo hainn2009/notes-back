@@ -42,5 +42,8 @@
   "superuser": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "Email": {
+    "datasource": "mail"
   }
 }
